@@ -32,7 +32,7 @@ $$
 An explicit Eulerian time integration produces the centered algorithm integrated in this Fortran code. 
 
 $$
-\frac{T_{i,j}^{n+1} - T_{i,j}^n}{\Delta t} = D \left( \frac{T_{i+1, j}^n - 2 T^n_{i,j} + T^n_{i-1,j}}{\Delta x^2} + \frac{T_{i, j+1}^n - 2 T^n_{i,j} + T^n_{i,j+1}}{\Delta y^2} \right)
+\frac{T_{i,j}^{n+1} - T_{i,j}^n}{\Delta t} = D \left( \frac{T_{i+1, j}^n - 2 T^n_{i,j} + T^n_{i-1,j}}{\Delta x^2} + \frac{T_{i, j+1}^n - 2 T^n_{i,j} + T^n_{i,j-1}}{\Delta y^2} \right)
 $$
 
 This program uses $D = 1$ as the default.

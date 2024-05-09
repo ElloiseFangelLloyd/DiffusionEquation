@@ -58,9 +58,5 @@ PROGRAM diffusion
     call stop_timer(count_final, count_rate, cpu_time_end)
     call print_runtimes(count, count_final, count_rate, cpu_time_start, cpu_time_end, wall_time)
 
-    !ex 4 was to print date and time at beginning and end of simulation
-    !if still required, uncomment below line
-    !call print_date_time()
-
 END PROGRAM diffusion
 

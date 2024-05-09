@@ -2,16 +2,9 @@
 # to run this code: 
 # make new 
 # ./diffusion
-#----------------------------------------------------------------------
-# TYVSTJÅLET FRA JENS MAKEFILE                                              
-#  Makefile : diffusion     
-#  Version  :                                                          
-#  Author   :                                                          
-#  Created  : 
-#                                                                      
-#----------------------------------------------------------------------
-#  Creator: makemake 2.1
-#  Rev: 1996/01/11 by Jens H. Walther  
+#----------------------------------------------------------------------                                           
+#  Makefile : diffusion                                                            
+#  Author   : Elloïse Fangel-Lloyd                                                                                                                     
 #----------------------------------------------------------------------
 SHELL       = /bin/sh
 TARGET      = diffusion

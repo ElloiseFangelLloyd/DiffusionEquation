@@ -4,7 +4,7 @@
 # ./diffusion
 #----------------------------------------------------------------------                                           
 #  Makefile : diffusion                                                            
-#  Author   : Elloïse Fangel-Lloyd                                                                                                                     
+#  Authors   : Elloïse Fangel-Lloyd, Dana Lüdemann, Clemens Zengler                                                                                                                     
 #----------------------------------------------------------------------
 SHELL       = /bin/sh
 TARGET      = diffusion
